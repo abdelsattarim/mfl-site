@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Money Freedom Lab</title>
+<style>
+  :root{
+    --navy:#0b1b2e;
+    --navy-2:#16233d;
+    --cream:#f4efe6;
+    --gold:#e0a526;
+    --muted:#9fb0c3;
+    --card:#132239;
+    --line: rgba(244,239,230,0.12);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--navy);
+    color:var(--cream);
+    font-family:'Public Sans', -apple-system, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .nav{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    padding:16px 20px;
+    background:rgba(11,27,46,0.9);
+    border-bottom:1px solid var(--line);
+  }
+  .nav a{
+    color:var(--muted);
+    text-decoration:none;
+    font-size:14px;
+    font-weight:600;
+  }
+  .nav a:hover{ color:var(--gold); }
+  .wrap{
+    max-width:680px;
+    margin:0 auto;
+    padding:48px 20px 80px;
+  }
+  h1{
+    font-family:'Fraunces', Georgia, serif;
+    font-size:clamp(32px, 7vw, 46px);
+    margin:0 0 12px;
+    font-weight:600;
+  }
+  h3{
+    font-size:16px;
+    margin:24px 0 8px;
+    color:var(--gold);
+  }
+  p{
+    line-height:1.7;
+    color:var(--muted);
+    margin:0 0 12px;
+    font-size:15px;
+  }
+  .kicker{
+    font-size:12px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--gold);
+    font-weight:700;
+    margin-bottom:10px;
+    display:block;
+  }
+  .card{
+    background:linear-gradient(160deg, var(--card), var(--navy-2));
+    border:1px solid rgba(224,165,38,0.2);
+    border-radius:16px;
+    padding:28px;
+    margin-top:24px;
+  }
+  .cta{
+    display:inline-block;
+    text-decoration:none;
+    font-weight:700;
+    font-size:15px;
+    padding:14px 22px;
+    border-radius:10px;
+    background:var(--gold);
+    color:var(--navy);
+    margin-top:8px;
+  }
+  footer{
+    text-align:center;
+    font-size:12.5px;
+    color:var(--muted);
+    padding-top:24px;
+    margin-top:40px;
+    border-top:1px solid var(--line);
+  }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Public+Sans:wght@400;500;600;700&display=swap">
+</head>
+<body>
+<nav class="nav">
+  <a href="index.html">Home</a>
+  <a href="terms.html">Terms of Service</a>
+  <a href="privacy.html">Privacy Policy</a>
+</nav>
+<div class="wrap">
+  <span class="kicker">Money Freedom Lab</span>
+  <h1>Educational personal-finance media</h1>
+  <p>Money Freedom Lab publishes short, honest, educational videos about budgeting, saving, and building financial freedom — on YouTube, and cross-posted to TikTok — alongside our book, <em>Financial Freedom: A Complete Guide to Budgeting, Saving, Investing, and Building Wealth</em>.</p>
+  <div class="card">
+    <h3>What we publish</h3>
+    <p>All video content is produced in-house and first published on our YouTube channel. The same videos are then shared to other platforms so the same audience can find them in more places. We do not repost anyone else's content.</p>
+    <a class="cta" href="https://www.amazon.com/dp/B0FR3X3YCG" target="_blank" rel="noopener">Get the book on Amazon &rarr;</a>
+  </div>
+  <footer>Money Freedom Lab &mdash; Educational content only. Not personalized financial advice.</footer>
+</div>
+</body>
+</html>
